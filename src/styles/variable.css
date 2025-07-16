@@ -1,0 +1,14 @@
+:root {
+    --primary: #003333;
+    --brand-dark: #1e413c;
+    --brand-accent: #00b498;
+    --white: #ffffff;
+    --gray-light: #f5f6fa;
+    --gray-medium: #aaaaaa;
+    --text-dark: #1e413c;
+    --text-light: #ffffff;
+    --border: #ececec;
+    --shadow: rgba(0, 0, 0, 0.08);
+    --font-base: 'Nexa Bold', 'Nexa Light', 'Montserrat', Arial, sans-serif;
+}
+  

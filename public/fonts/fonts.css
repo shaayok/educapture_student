@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Nexa Bold';
+  src: url('./Nexa Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Nexa Light';
+  src: url('./Nexa Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+} 

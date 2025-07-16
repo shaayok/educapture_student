@@ -1,0 +1,48 @@
+@import './variable.css';
+  
+  html, body, #root {
+  height: 100%;
+  font-family: var(--font-base) !important;
+}
+
+body {
+  font-family: var(--font-base) !important;
+  background-color: var(--gray-light);
+  color: var(--text-dark);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-base) !important;
+}
+
+a {
+  color: var(--brand-accent);
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+a:hover {
+  color: var(--primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nexa Bold', 'Nexa Light', Arial, sans-serif;
+  color: var(--primary);
+  font-weight: 700;
+  letter-spacing: 0.01em;
+  margin-bottom: 0.5em;
+}
+
+.primary, .btn-primary, button, .accent {
+  color: var(--text-light) !important;
+  background: var(--primary) !important;
+  border-color: var(--primary) !important;
+}
+
+button:hover, .btn-primary:hover {
+  background: var(--brand-dark) !important;
+  color: var(--text-light) !important;
+}
